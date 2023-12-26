@@ -10,7 +10,7 @@ from assets.inicio import Inicio
 pg.mixer.init()
 pg.init()
 CLOCK = pg.time.Clock() # Clock to control FPS
-SCREEN = pg.display.set_mode((800,500), pg.RESIZABLE) # Creates the Surface
+SCREEN = pg.display.set_mode((900,600), pg.RESIZABLE) # Creates the Surface
 
 # Set customs for screen
 pg.display.set_icon(pg.image.load(os.path.join('images','icon.png'))) # Icon
